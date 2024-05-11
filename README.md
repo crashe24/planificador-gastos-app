@@ -30,8 +30,8 @@ export default {
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 
-##Instalaciones adicionales
-###Tailwindscs
+## Instalaciones adicionales
+### Tailwindscs
 npm i -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 
@@ -49,3 +49,23 @@ export default {
 
 
 ````
+## Iconos
+npm i @headlessui/react
+npm i @heroicons/react
+## date picker
+npm i react-date-picker
+import DatePicker from 'react-date-picker';
+import 'react-date-picker/dist/DatePicker.css';
+import 'react-calendar/dist/Calendar.css';
+<DatePicker id='dateSpent' className = 'bg-slate-100 p-2 border-0'/>
+
+## circular progressbar es para la grafica 
+npm i react-circular-progressbar
+
+
+## uuid
+npm i uuid
+`npm i --save-dev @types/uuid`
+
+## switable efecto para editar eliminar 
+npm i react-swipeable-list

@@ -21,10 +21,12 @@ function BudgetForm() {
     <form className='space-y-5' onSubmit={handleSubmit}>
       <div className='flex flex-col space-y-5'>
         <label htmlFor='budget'> Definir Presupuesto</label>
-        <input id='budget' type='number' className='w-full bg-white border border-gray-200 p-2'
-        placeholder='Define tu presupuesto' name='budget'
-        value={budget} 
-        onChange={ handleChange } />
+        <input id='budget' type='number' 
+          className='w-full bg-white border border-gray-200 p-2'
+          placeholder='Define tu presupuesto' name='budget'
+          value={budget} 
+          onChange={ handleChange } 
+         />
       </div>
       <input type='submit'
       value={'Definir Presupuesto'}
